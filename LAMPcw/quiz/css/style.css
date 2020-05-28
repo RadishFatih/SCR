@@ -1,0 +1,56 @@
+body{
+    font-family:"Comic Sans MS";
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: wavy;
+}
+label{
+    display:inline-block;
+    width: 180px;
+}
+input[type='text']{
+    width: 97%;
+}
+input[type='number']{
+    width: 7%;
+}
+.container{
+    width:60%;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+header{
+    border-bottom: 3px #ff44ff solid;
+    text-align: center;
+}
+footer{
+    border-top: 3px #24f924 solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main{
+    padding-bottom: 20px;
+}
+a.start{
+    display: inline-flex;
+    color: #4424f9;
+    background: darkorange;
+    border: cyan 1px dotted;
+}
+
+.current{
+    padding: 10px;
+    background: darkorange;
+    border:#ccc dotted 2px;
+    margin: 20px 0 10px 0;
+    color: darkorchid ;
+}
