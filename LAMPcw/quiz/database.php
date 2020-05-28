@@ -1,8 +1,8 @@
 <?php
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "haslostudenta";
-$db_name = "quizz";
+$db_host = "51.83.145.90:3306";
+$db_user = "mysql4269";
+$db_pass = "2HF1kJITbU";
+$db_name = "mysql4269";
 // Create connection
 $mysqli = new mysqli($db_host,$db_user,$db_pass,$db_name);
 if($mysqli->connect_error){
